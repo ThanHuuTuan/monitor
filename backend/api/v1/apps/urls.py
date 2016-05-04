@@ -23,3 +23,4 @@ def add_resource():
 	api.add_resource(PlanDetailsView, '/user/plan-details/')
 	api.add_resource(ForgotPasswordView, '/user/password-reset/')
 	api.add_resource(ResetPasswordView, '/user/password-reset-confirm/')
+        api.add_resource(UpdatePlanDetailsView, '/payment/update-plan/')
